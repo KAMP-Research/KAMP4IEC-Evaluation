@@ -1,0 +1,19 @@
+Function CheckGreaterEquals wird gelöscht
+
+Modifiziere Function CheckGreaterEquals 
+Modifiziere Function Even
+Modifiziere Method PPU.execute
+Modifiziere FunctionBlock ConditionChecker
+Modifiziere Program
+
+KAMP4IEC:
+
+SeedModifications
+	CheckGreaterEquals 
+
+Nach Propagation:
+
+Modify PPU.execute
+Modify Program
+Modify Even
+Modify ConditionChecker

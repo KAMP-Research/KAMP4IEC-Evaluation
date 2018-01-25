@@ -1,0 +1,66 @@
+Stempel war bisher nicht Teil der XPPU und soll nun hinzugefügt werden und in den Betrieb eingebunden
+
+Lege GlobVars für Stempel an
+	out_StempelSchieberAusfahren  : BOOL;
+	out_StempelSchieberEinfahren  : BOOL;
+	out_StempelStempeln  : BOOL;
+	out_StempelStempelnDruck  : INT;
+	in_KranZeigtAufStempel : BOOL;
+	in_StempelSchieberAusgefahren  : BOOL;
+	in_StempelSchieberEingefahren  : BOOL;
+	in_StempelWerkstueckVorhanden  : BOOL;
+	in_StempelOben  : BOOL;
+	in_StempelUnten  : BOOL;
+
+Erstelle Stamp 
+Implementiere IModule und lege Methoden an
+
+instanziiere Stamp und lege Variablen für Benutzung in StampingPlant
+modifiziere StampingPlant.execute für Benutzung von Stamp und führe Stamp.execute aus
+StampingPlant.resetting führe Stamp.resetting aus
+StampingPlant.starting führe Stamp.starting aus
+Lege Variablen für Benutzung von Stamp an
+
+Erstelle Methode Crane.turnRightToStamp
+Erstelle Methode Crane.turnLeftToStamp
+Modifiziere Methode Crane.execute
+Modifiziere Methode Crane.resetting
+
+
+In KAMP4IEC
+	
+Lege GlobVars für Stempel an
+	-out_StempelSchieberAusfahren
+	-out_StempelSchieberEinfahren 
+	-out_StempelStempeln
+	-out_StempelStempelnDruck
+	-in_KranZeigtAufStempel
+	-in_StempelSchieberAusgefahren
+	-in_StempelSchieberEingefahren
+	-in_StempelWerkstueckVorhanden
+	-in_StempelOben
+	-in_StempelUnten
+Lege Stamp + Methoden an
+
+Nach Propagation
+
+Korrekt:
+FB
+	StampingPlant
+Config
+Methods
+	StampingPlant.execute
+	StampingPlant.resetting
+	StampingPlant.starting
+	Crane.turnLeftToStamp
+	Crane.turnRightToStamp
+	Crane.execute
+
+Drüber:
+FB
+	PPU komplett
+	StampingPlant alles außer oben
+Program
+Doppelt:
+FB
+	Stamp komplett

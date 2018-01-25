@@ -1,0 +1,73 @@
+3 Microswitches am Crane werden durch ein Potentiometer ersetzt
+
+ersetze
+	in_KranZeigtAufStempel : BOOL;
+	in_KranZeigtAufLaufband : BOOL;
+	in_KranZeigtAufMagazin : BOOL;
+durch
+	in_KranIstBeiGrad: INT;
+
+in Crane.execute if Abfrage modifizieren
+
+	in_KranZeigtAufMagazin --> (in_KranIstBeiGrad = 90)
+	in_KranZeigtAufStempel--> (in_KranIstBeiGrad = 180)
+
+in Crane.turnLeftToConveyor if Abfrage modifizieren
+	in_KranZeigtAufLaufBand --> (in_KranIstBeiGrad = 0)
+
+in Crane.turnLeftToStack if Abfrage modifizieren
+	in_KranZeigtAufMagazin --> (in_KranIstBeiGrad = 90)
+
+in Crane.turnLeftToStamp if Abfrage modifizieren
+	in_KranZeigtAufStempel--> (in_KranIstBeiGrad = 180)
+
+in Crane.turnRightToConveyor if Abfrage modifizieren
+	in_KranZeigtAufLaufBand --> (in_KranIstBeiGrad = 0)
+
+in Crane.turnRightToStack if Abfrage modifizieren
+	in_KranZeigtAufMagazin --> (in_KranIstBeiGrad = 90)
+
+in Crane.turnRightToStamp if Abfrage modifizieren
+	in_KranZeigtAufStempel--> (in_KranIstBeiGrad = 180)
+
+Fertig in CodeSys
+
+In KAMP4IEC:
+	Lege GlobVar in_KranIstBeiGrad in Model an
+	erstelle Verweis von 	Crane.execute
+				Crane.turnLeftToConveyor 
+				Crane.turnLeftToStack
+				Crane.turnLeftToStamp 
+				Crane.turnRightToConveyor 
+				Crane.turnRightToStack 
+				Crane.turnRightToStamp 
+	auf in_KranIstBeiGrad 
+	
+	Lege in ModificationMarks 4 ChangeGlobVar für 	in_KranIstBeiGrad 
+							in_KranZeigtAufStempel
+							in_KranZeigtAufLaufband
+							in_KranZeigtAufMagazin
+	an
+--> Propagate
+
+Ergebniss:
+Richtig:
+	Change
+		Config
+	Change Method
+		Crane.execute
+		Crane.turnLeftToConveyor 
+		Crane.turnLeftToStack
+		Crane.turnLeftToStamp
+		Crane.turnRightToConveyor 
+		Crane.turnRightToStack 
+		Crane.turnRightToStamp
+Darüber:
+	Change 
+		Program
+	Change Method
+		Crane.starting
+		StampingPlant.execute
+		StampingPlant.starting
+		PPU.execute
+		PPU.starting

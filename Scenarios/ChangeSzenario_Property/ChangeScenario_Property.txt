@@ -1,0 +1,19 @@
+IUnitmode.Active soll Typ ändern von BOOL zu INT
+
+IUnitMode Modifikationen
+	IUnitMode.Active : BOOL -> PROPERTY Active : INT
+
+UnitMode Modifikationen
+	Unitmode.Active  : BOOL -> PROPERTY Active : INT
+
+PPU.execute benutzt IUnitmode.Active und Unitmode.Active --> Benutzung ändern
+
+Program benutzt IUnitmode.Active und UnitMode.Active
+
+KAMP4IEC:
+SeedModifications
+	Modify AbstractProperty IUnitMode.Active
+
+Program
+PPU.execute
+UnitMode.Active

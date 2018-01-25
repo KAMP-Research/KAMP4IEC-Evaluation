@@ -1,0 +1,22 @@
+IUnitMode.Hold soll von BOOL zu State geändert werden
+
+IUnitMode.Hold modifizieren
+
+UnitMode.Hold modifizieren
+
+PPU holding modifizieren
+Program modifizieren
+HoldingUnit modifizieren
+
+In KAMP4IEC:
+
+SeedModifications:
+IUnitMode.Hold
+
+Korrekt:
+FB
+	HoldingUnit
+Program
+Method
+	PPU.holding
+	UnitMode.Hold

@@ -1,0 +1,16 @@
+Delete MyIPlant
+
+Change IPlant.AsMyIPlant
+Change IPlant.Plant
+Change Function CreateNewMyIPlant
+Change FB Plant
+Change Method Plant.AsMyIPlant
+Change Method Plant.Plant
+Change GV m_myIPlant
+
+KAMP4IEC
+
+SeedModification
+Modify MyIPlant
+
+Alles korrekt propagiert

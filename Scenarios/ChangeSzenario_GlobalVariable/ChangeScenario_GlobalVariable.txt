@@ -1,0 +1,15 @@
+GlobalVariable in_MagazinStartknopf : BOOL wird geändert zu in_MagazinStartknopf : INT um verschiedene Produktionszustände verwenden zu können
+
+Program modifizieren
+FB StartChecker modifizieren
+PPU.starting modifizieren
+
+KAMP4IEC:
+
+Korrekt:
+FB
+	Starter
+Program
+Config
+Method
+	PPU.starting

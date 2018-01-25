@@ -1,0 +1,37 @@
+System beinhaltet einen FB Plant, der bereits SortingPlant erweitert und Funktionalitäten bietet wie Unterkomponenten beim Namen zu suchen oder auf die Hauptkomponente der Anlage zuzugreifen. Der neue FB MyModule stellt eine Basisimplementierung von IModule dar und wird von Conveyor1 erweitert. Plant implementiert das Interface IPlant. Diverse Komponenten verwenden MyModule
+MyModule wird nun gelöscht, was geschieht:
+
+Change Function CreateMyModule
+modify Program
+modify IPlant.getModuleByName
+modify IPlant.MainModule
+modify FB Plant
+modify FB Stamp
+modify Plant.MainModule
+modify Plant.getModuleByName
+modify FB Conveyor1
+modify GV m_myModule
+
+KAMP4IEC:
+
+FB
+	Stamp
+	Conveyor1
+	Plant
+GV m_MyModule
+AM IPlant.getModulesByName
+AP IPlant.MainModule
+Program
+Configuration
+Method
+	Plant.getModulesByName
+	Methoden der oberen FBs
+Property
+	Plant.MainModule
+	
+
+Darüber
+	
+	StampingPlant
+	PPU
+	SortingPlant und deren Methods
