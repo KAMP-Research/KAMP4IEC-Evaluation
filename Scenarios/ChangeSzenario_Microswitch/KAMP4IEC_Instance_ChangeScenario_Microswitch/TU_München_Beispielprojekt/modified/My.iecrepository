@@ -48,7 +48,7 @@
     <HasMethod id="IECMethod__39ayUJbGEeeSquziZesqIA" Name="Crane.aborting IECMethod__39ayUJbGEeeSquziZesqIA"/>
     <HasMethod id="IECMethod__ETAO8JbHEeeSquziZesqIA" Name="Crane.clearing IECMethod__ETAO8JbHEeeSquziZesqIA"/>
     <HasMethod id="IECMethod__YD1VIJbHEeeSquziZesqIA" Name="Crane.completing IECMethod__YD1VIJbHEeeSquziZesqIA"/>
-    <HasMethod id="IECMethod__iqIlcJbHEeeSquziZesqIA" Name="Crane.execute IECMethod__iqIlcJbHEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.9 //@ContainsGlobalVariable.12 //@ContainsGlobalVariable.48 //@ContainsGlobalVariable.10" WritesGlobalVariable="//@ContainsGlobalVariable.49" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.1 //@ContainsFunctionBlock.4/@HasMethod.4 //@ContainsFunctionBlock.1/@HasMethod.7 //@ContainsFunctionBlock.1/@HasMethod.5 //@ContainsFunctionBlock.1/@HasMethod.6 //@ContainsFunctionBlock.1/@HasMethod.14 //@ContainsFunctionBlock.1/@HasMethod.8 //@ContainsFunctionBlock.4/@HasMethod.3 //@ContainsFunctionBlock.1/@HasMethod.15"/>
+    <HasMethod id="IECMethod__iqIlcJbHEeeSquziZesqIA" Name="Crane.execute IECMethod__iqIlcJbHEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.9 //@ContainsGlobalVariable.12 //@ContainsGlobalVariable.48 //@ContainsGlobalVariable.73 //@ContainsGlobalVariable.10" WritesGlobalVariable="//@ContainsGlobalVariable.49" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.1 //@ContainsFunctionBlock.4/@HasMethod.4 //@ContainsFunctionBlock.1/@HasMethod.7 //@ContainsFunctionBlock.1/@HasMethod.5 //@ContainsFunctionBlock.1/@HasMethod.6 //@ContainsFunctionBlock.1/@HasMethod.14 //@ContainsFunctionBlock.1/@HasMethod.8 //@ContainsFunctionBlock.4/@HasMethod.3 //@ContainsFunctionBlock.1/@HasMethod.15"/>
     <HasMethod id="IECMethod__xHpX4JbHEeeSquziZesqIA" Name="Crane.holding IECMethod__xHpX4JbHEeeSquziZesqIA" WritesGlobalVariable="//@ContainsGlobalVariable.34 //@ContainsGlobalVariable.35"/>
     <HasMethod id="IECMethod__1ehRgJbHEeeSquziZesqIA" Name="Crane.intake IECMethod__1ehRgJbHEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.7" WritesGlobalVariable="//@ContainsGlobalVariable.33"/>
     <HasMethod id="IECMethod__4oTF4JbHEeeSquziZesqIA" Name="Crane.lift IECMethod__4oTF4JbHEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.9" WritesGlobalVariable="//@ContainsGlobalVariable.32"/>
@@ -57,15 +57,12 @@
     <HasMethod id="IECMethod__E6iTkJbIEeeSquziZesqIA" Name="Crane.resetting IECMethod__E6iTkJbIEeeSquziZesqIA"/>
     <HasMethod id="IECMethod__WFvbUJbIEeeSquziZesqIA" Name="Crane.starting IECMethod__WFvbUJbIEeeSquziZesqIA" CallsMethod="//@ContainsFunctionBlock.1/@HasMethod.16"/>
     <HasMethod id="IECMethod__ZpoY0JbIEeeSquziZesqIA" Name="Crane.stopping IECMethod__ZpoY0JbIEeeSquziZesqIA"/>
-    <HasMethod id="IECMethod__GqNE8JbJEeeSquziZesqIA" Name="Crane.turnLeftToConveyor IECMethod__GqNE8JbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.11" WritesGlobalVariable="//@ContainsGlobalVariable.35"/>
-    <HasMethod id="IECMethod__H6uRoJbJEeeSquziZesqIA" Name="Crane.turnLeftToStack IECMethod__H6uRoJbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.12" WritesGlobalVariable="//@ContainsGlobalVariable.35"/>
-    <HasMethod id="IECMethod__JDZw8JbJEeeSquziZesqIA" Name="Crane.turnLeftToStamp IECMethod__JDZw8JbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.10" WritesGlobalVariable="//@ContainsGlobalVariable.35"/>
-    <HasMethod id="IECMethod__KKDP8JbJEeeSquziZesqIA" Name="Crane.turnRightToConveyor IECMethod__KKDP8JbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.11" WritesGlobalVariable="//@ContainsGlobalVariable.34"/>
-    <HasMethod id="IECMethod__LUdNkJbJEeeSquziZesqIA" Name="Crane.turnRightToStack IECMethod__LUdNkJbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.12">
-      <WritesGlobalVariable href="My.iecmodel#//@DeclaresGlobalVariable.34"/>
-      <WritesGlobalVariable href="#//@ContainsGlobalVariable.34"/>
-    </HasMethod>
-    <HasMethod id="IECMethod__Me2kIJbJEeeSquziZesqIA" Name="Crane.turnRightToStamp IECMethod__Me2kIJbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.10" WritesGlobalVariable="//@ContainsGlobalVariable.34"/>
+    <HasMethod id="IECMethod__GqNE8JbJEeeSquziZesqIA" Name="Crane.turnLeftToConveyor IECMethod__GqNE8JbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.73 //@ContainsGlobalVariable.11" WritesGlobalVariable="//@ContainsGlobalVariable.35"/>
+    <HasMethod id="IECMethod__H6uRoJbJEeeSquziZesqIA" Name="Crane.turnLeftToStack IECMethod__H6uRoJbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.12 //@ContainsGlobalVariable.73" WritesGlobalVariable="//@ContainsGlobalVariable.35"/>
+    <HasMethod id="IECMethod__JDZw8JbJEeeSquziZesqIA" Name="Crane.turnLeftToStamp IECMethod__JDZw8JbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.10 //@ContainsGlobalVariable.73" WritesGlobalVariable="//@ContainsGlobalVariable.35"/>
+    <HasMethod id="IECMethod__KKDP8JbJEeeSquziZesqIA" Name="Crane.turnRightToConveyor IECMethod__KKDP8JbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.11 //@ContainsGlobalVariable.73" WritesGlobalVariable="//@ContainsGlobalVariable.34"/>
+    <HasMethod id="IECMethod__LUdNkJbJEeeSquziZesqIA" Name="Crane.turnRightToStack IECMethod__LUdNkJbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.12 //@ContainsGlobalVariable.73" WritesGlobalVariable="//@ContainsGlobalVariable.49 //@ContainsGlobalVariable.34"/>
+    <HasMethod id="IECMethod__Me2kIJbJEeeSquziZesqIA" Name="Crane.turnRightToStamp IECMethod__Me2kIJbJEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.10 //@ContainsGlobalVariable.73" WritesGlobalVariable="//@ContainsGlobalVariable.34"/>
     <HasMethod id="IECMethod__lgXWQJbIEeeSquziZesqIA" Name="Crane.unHolding IECMethod__lgXWQJbIEeeSquziZesqIA"/>
   </ContainsFunctionBlock>
   <ContainsFunctionBlock id="FunctionBlock__fS09UZbFEeeJ8LwYReQ9UA" Name="Stack FunctionBlock__fS09UZbFEeeJ8LwYReQ9UA" Implements="//@ContainsInterface.0">
@@ -86,9 +83,7 @@
     <HasMethod id="IECMethod__6TM98JbGEeeSquziZesqIA" Name="Stamp.aborting IECMethod__6TM98JbGEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.0"/>
     <HasMethod id="IECMethod__JNWCAJbHEeeSquziZesqIA" Name="Stamp.clearing IECMethod__JNWCAJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.1"/>
     <HasMethod id="IECMethod__WOvbwJbHEeeSquziZesqIA" Name="Stamp.completing IECMethod__WOvbwJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.2"/>
-    <HasMethod id="IECMethod__kbLsUJbHEeeSquziZesqIA" Name="Stamp.execute IECMethod__kbLsUJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.3" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.1 //@ContainsFunctionBlock.4/@HasMethod.4 //@ContainsFunctionBlock.4/@HasMethod.3 //@ContainsFunctionBlock.3/@HasMethod.8 //@ContainsFunctionBlock.3/@HasMethod.6 //@ContainsFunctionBlock.3/@HasMethod.13 //@ContainsFunctionBlock.3/@HasMethod.5 //@ContainsFunctionBlock.3/@HasMethod.7">
-      <WritesGlobalVariable href="My.iecmodel#//@DeclaresGlobalVariable.49"/>
-    </HasMethod>
+    <HasMethod id="IECMethod__kbLsUJbHEeeSquziZesqIA" Name="Stamp.execute IECMethod__kbLsUJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.3" WritesGlobalVariable="//@ContainsGlobalVariable.67" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.1 //@ContainsFunctionBlock.4/@HasMethod.4 //@ContainsFunctionBlock.4/@HasMethod.3 //@ContainsFunctionBlock.3/@HasMethod.8 //@ContainsFunctionBlock.3/@HasMethod.6 //@ContainsFunctionBlock.3/@HasMethod.13 //@ContainsFunctionBlock.3/@HasMethod.5 //@ContainsFunctionBlock.3/@HasMethod.7"/>
     <HasMethod id="IECMethod__u_OS0JbHEeeSquziZesqIA" Name="Stamp.holding IECMethod__u_OS0JbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.4"/>
     <HasMethod id="IECMethod__u_KL8JbIEeeSquziZesqIA" Name="Stamp.lift IECMethod__u_KL8JbIEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.16" WritesGlobalVariable="//@ContainsGlobalVariable.38 //@ContainsGlobalVariable.39"/>
     <HasMethod id="IECMethod__wofhQJbIEeeSquziZesqIA" Name="Stamp.lower IECMethod__wofhQJbIEeeSquziZesqIA" ReadsGlobalVariable="//@ContainsGlobalVariable.17" WritesGlobalVariable="//@ContainsGlobalVariable.38 //@ContainsGlobalVariable.39"/>
@@ -249,4 +244,5 @@
   <ContainsGlobalVariable id="GlobalVariable__j70HgZVNEeed_Iyh1NuRXg" Name="test_OMACState GlobalVariable__j70HgZVNEeed_Iyh1NuRXg"/>
   <ContainsGlobalVariable id="GlobalVariable__jkwSYZVNEeed_Iyh1NuRXg" Name="gc_usiMaxModes GlobalVariable__jkwSYZVNEeed_Iyh1NuRXg"/>
   <ContainsGlobalVariable id="GlobalVariable__q4b7YZVNEeed_Iyh1NuRXg" Name="gc_maxObjectsArray GlobalVariable__q4b7YZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__jmCiUQTLEei1hvZ6BxTfVg" Name="in_KranIstBeiGrad GlobalVariable__jmCiUQTLEei1hvZ6BxTfVg"/>
 </IECReporitory:Repository>

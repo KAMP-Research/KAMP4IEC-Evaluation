@@ -2,7 +2,7 @@ Function CheckGreaterEquals wird gelöscht
 
 Modifiziere Function CheckGreaterEquals 
 Modifiziere Function Even
-Modifiziere Method PPU.execute
+Modifiziere Method PPU.starting
 Modifiziere FunctionBlock ConditionChecker
 Modifiziere Program
 

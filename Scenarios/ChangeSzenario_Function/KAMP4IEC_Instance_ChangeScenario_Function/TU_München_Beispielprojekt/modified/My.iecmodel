@@ -39,5 +39,6 @@
     <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.8"/>
     <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.2"/>
     <CallsMethod xsi:type="IECReporitory:IECAbstractMethod" href="My.iecrepository#//@ContainsInterface.1/@HasMethod.7"/>
+    <CallsFunction href="My.iecrepository#//@ContainsFunction.0"/>
   </InstantiatesProgram>
 </IECModel:Configuration>

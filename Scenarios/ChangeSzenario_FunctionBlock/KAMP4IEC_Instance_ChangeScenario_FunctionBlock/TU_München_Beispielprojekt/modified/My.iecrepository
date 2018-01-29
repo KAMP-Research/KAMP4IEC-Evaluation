@@ -31,7 +31,11 @@
     <HasProperty id="IECAbstractProperty__zO-tQZbGEeeSquziZesqIA" Name="IUnitMode.Name IECAbstractProperty__zO-tQZbGEeeSquziZesqIA"/>
     <HasProperty id="IECAbstractProperty__0XmiMZbGEeeSquziZesqIA" Name="IUnitMode.SupportedStates IECAbstractProperty__0XmiMZbGEeeSquziZesqIA"/>
   </ContainsInterface>
-  <ContainsFunctionBlock id="FunctionBlock__2I05cZVsEeed_Iyh1NuRXg" Name="Conveyor1 FunctionBlock__2I05cZVsEeed_Iyh1NuRXg" Implements="//@ContainsInterface.0">
+  <ContainsInterface id="IECInterface__WvtbcAHeEeijUMVSRLharQ" Name="IPlant IECInterface__WvtbcAHeEeijUMVSRLharQ">
+    <HasMethod id="IECAbstractMethod__YgHCEAHeEeijUMVSRLharQ" Name="IPlant.GetModulesByName IECAbstractMethod__YgHCEAHeEeijUMVSRLharQ" HasDerivedReturnType="//@ContainsFunctionBlock.12"/>
+    <HasProperty id="IECAbstractProperty__xEmEgQHeEeijUMVSRLharQ" Name="IPlant.MainModule IECAbstractProperty__xEmEgQHeEeijUMVSRLharQ" HasDerivedType="//@ContainsFunctionBlock.12"/>
+  </ContainsInterface>
+  <ContainsFunctionBlock id="FunctionBlock__2I05cZVsEeed_Iyh1NuRXg" Name="Conveyor1 FunctionBlock__2I05cZVsEeed_Iyh1NuRXg" Implements="//@ContainsInterface.0" ExtendsFunctionBlock="//@ContainsFunctionBlock.12">
     <HasMethod id="IECMethod__4WtGQJVsEeed_Iyh1NuRXg" Name="Conveyor1.aborting IECMethod__4WtGQJVsEeed_Iyh1NuRXg" implements="//@ContainsInterface.0/@HasMethod.0"/>
     <HasMethod id="IECMethod__6OUIIJVsEeed_Iyh1NuRXg" Name="Conveyor1.clearing IECMethod__6OUIIJVsEeed_Iyh1NuRXg" implements="//@ContainsInterface.0/@HasMethod.1"/>
     <HasMethod id="IECMethod___RAl8JVsEeed_Iyh1NuRXg" Name="Conveyor1.completing IECMethod___RAl8JVsEeed_Iyh1NuRXg" implements="//@ContainsInterface.0/@HasMethod.2" WritesGlobalVariable="//@ContainsGlobalVariable.49" CallsMethod="//@ContainsFunctionBlock.4/@HasMethod.1"/>
@@ -82,7 +86,7 @@
     <HasMethod id="IECMethod__kvU64JbIEeeSquziZesqIA" Name="Stack.unHolding IECMethod__kvU64JbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.8"/>
     <HasMethod id="IECMethod__BX-9YJbJEeeSquziZesqIA" Name="Stack.wait IECMethod__BX-9YJbJEeeSquziZesqIA" WritesGlobalVariable="//@ContainsGlobalVariable.47"/>
   </ContainsFunctionBlock>
-  <ContainsFunctionBlock id="FunctionBlock__hJkcgZbFEeeJ8LwYReQ9UA" Name="Stamp FunctionBlock__hJkcgZbFEeeJ8LwYReQ9UA" Implements="//@ContainsInterface.0">
+  <ContainsFunctionBlock id="FunctionBlock__hJkcgZbFEeeJ8LwYReQ9UA" Name="Stamp FunctionBlock__hJkcgZbFEeeJ8LwYReQ9UA" Implements="//@ContainsInterface.0" ExtendsFunctionBlock="//@ContainsFunctionBlock.12">
     <HasMethod id="IECMethod__6TM98JbGEeeSquziZesqIA" Name="Stamp.aborting IECMethod__6TM98JbGEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.0"/>
     <HasMethod id="IECMethod__JNWCAJbHEeeSquziZesqIA" Name="Stamp.clearing IECMethod__JNWCAJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.1"/>
     <HasMethod id="IECMethod__WOvbwJbHEeeSquziZesqIA" Name="Stamp.completing IECMethod__WOvbwJbHEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.2"/>
@@ -176,6 +180,12 @@
     <HasMethod id="IECMethod__eSrnkJbIEeeSquziZesqIA" Name="PickAndPlaceUnit.stopping IECMethod__eSrnkJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.7"/>
     <HasMethod id="IECMethod__gQBeAJbIEeeSquziZesqIA" Name="PickAndPlaceUnit.unHolding IECMethod__gQBeAJbIEeeSquziZesqIA" implements="//@ContainsInterface.0/@HasMethod.8" CallsMethod="//@ContainsFunctionBlock.6/@HasMethod.8"/>
   </ContainsFunctionBlock>
+  <ContainsFunctionBlock id="FunctionBlock__do5g0QHeEeijUMVSRLharQ" Name="MyModule FunctionBlock__do5g0QHeEeijUMVSRLharQ" Implements="//@ContainsInterface.0"/>
+  <ContainsFunctionBlock id="FunctionBlock__mwUYUQHeEeijUMVSRLharQ" Name="Plant FunctionBlock__mwUYUQHeEeijUMVSRLharQ" InstantiatesFunctionBlock="//@ContainsFunctionBlock.12">
+    <HasMethod id="IECMethod__prS7sAHeEeijUMVSRLharQ" Name="Plant.GetModulesByName IECMethod__prS7sAHeEeijUMVSRLharQ" HasDerivedReturnType="//@ContainsFunctionBlock.12"/>
+    <HasProperty id="IECProperty__6OfoQQHeEeijUMVSRLharQ" Name="Plant.MainModule IECProperty__6OfoQQHeEeijUMVSRLharQ" implements="//@ContainsInterface.2/@HasProperty.0" HasDerivedType="//@ContainsFunctionBlock.12"/>
+  </ContainsFunctionBlock>
+  <ContainsFunction id="Function__SuBHoAHeEeijUMVSRLharQ" Name="CreateMyModule Function__SuBHoAHeEeijUMVSRLharQ" HasDerivedReturnType="//@ContainsFunctionBlock.12"/>
   <ContainsGlobalVariable id="GlobalVariable__23OI8JVKEeed_Iyh1NuRXg" Name="in_MagazinStartknopf GlobalVariable__23OI8JVKEeed_Iyh1NuRXg"/>
   <ContainsGlobalVariable id="GlobalVariable__-Tg7YZVKEeed_Iyh1NuRXg" Name="in_MagazinNotaus GlobalVariable__-Tg7YZVKEeed_Iyh1NuRXg"/>
   <ContainsGlobalVariable id="GlobalVariable___wyKoZVKEeed_Iyh1NuRXg" Name="in_MagazinSchieberAusgefahren GlobalVariable___wyKoZVKEeed_Iyh1NuRXg"/>
@@ -249,4 +259,5 @@
   <ContainsGlobalVariable id="GlobalVariable__j70HgZVNEeed_Iyh1NuRXg" Name="test_OMACState GlobalVariable__j70HgZVNEeed_Iyh1NuRXg"/>
   <ContainsGlobalVariable id="GlobalVariable__jkwSYZVNEeed_Iyh1NuRXg" Name="gc_usiMaxModes GlobalVariable__jkwSYZVNEeed_Iyh1NuRXg"/>
   <ContainsGlobalVariable id="GlobalVariable__q4b7YZVNEeed_Iyh1NuRXg" Name="gc_maxObjectsArray GlobalVariable__q4b7YZVNEeed_Iyh1NuRXg"/>
+  <ContainsGlobalVariable id="GlobalVariable__luCmgwHfEeijUMVSRLharQ" Name="m_myModule GlobalVariable__luCmgwHfEeijUMVSRLharQ" HasDerivedType="//@ContainsFunctionBlock.12"/>
 </IECReporitory:Repository>

@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <IECModel:Configuration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository" id="Configuration__2TqI4JVKEeed_Iyh1NuRXg" Name=" Configuration__2TqI4JVKEeed_Iyh1NuRXg">
-  <InstantiatesProgram id="Program__P1UlQJVLEeed_Iyh1NuRXg" Name=" Program__P1UlQJVLEeed_Iyh1NuRXg" ReadsGlobalVariable="//@DeclaresGlobalVariable.0 //@DeclaresGlobalVariable.57 //@DeclaresGlobalVariable.54 //@DeclaresGlobalVariable.58 //@DeclaresGlobalVariable.64 //@DeclaresGlobalVariable.60 //@DeclaresGlobalVariable.66" WritesGlobalVariable="//@DeclaresGlobalVariable.49 //@DeclaresGlobalVariable.67 //@DeclaresGlobalVariable.63 //@DeclaresGlobalVariable.65 //@DeclaresGlobalVariable.58 //@DeclaresGlobalVariable.59 //@DeclaresGlobalVariable.60 //@DeclaresGlobalVariable.61 //@DeclaresGlobalVariable.62 //@DeclaresGlobalVariable.64 //@DeclaresGlobalVariable.66 //@DeclaresGlobalVariable.68">
+  <InstantiatesProgram id="Program__P1UlQJVLEeed_Iyh1NuRXg" Name=" Program__P1UlQJVLEeed_Iyh1NuRXg">
     <InstantiatesInterface href="My.iecrepository#//@ContainsInterface.1"/>
     <InstantiatesFunctionBlock href="My.iecrepository#//@ContainsFunctionBlock.9"/>
     <InstantiatesFunctionBlock href="My.iecrepository#//@ContainsFunctionBlock.10"/>
     <InstantiatesFunctionBlock href="My.iecrepository#//@ContainsFunctionBlock.11"/>
     <InstantiatesFunctionBlock href="My.iecrepository#//@ContainsFunctionBlock.5"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.0"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.57"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.54"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.58"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.64"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.60"/>
+    <ReadsGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.66"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.49"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.67"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.63"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.65"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.58"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.59"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.60"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.61"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.62"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.64"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.66"/>
+    <WritesGlobalVariable href="My.iecrepository#//@ContainsGlobalVariable.68"/>
     <ReadsProperty xsi:type="IECReporitory:IECProperty" href="My.iecrepository#//@ContainsFunctionBlock.10/@HasProperty.0"/>
     <ReadsProperty xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.1/@HasProperty.2"/>
+    <ReadsProperty xsi:type="IECReporitory:IECAbstractProperty" href="My.iecrepository#//@ContainsInterface.1/@HasProperty.0"/>
+    <ReadsProperty xsi:type="IECReporitory:IECProperty" href="My.iecrepository#//@ContainsFunctionBlock.9/@HasProperty.0"/>
     <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.10/@HasMethod.2"/>
     <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.4/@HasMethod.5"/>
     <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.4/@HasMethod.2"/>
@@ -21,80 +42,4 @@
     <CallsMethod xsi:type="IECReporitory:IECMethod" href="My.iecrepository#//@ContainsFunctionBlock.11/@HasMethod.2"/>
     <CallsMethod xsi:type="IECReporitory:IECAbstractMethod" href="My.iecrepository#//@ContainsInterface.1/@HasMethod.7"/>
   </InstantiatesProgram>
-  <DeclaresGlobalVariable id="GlobalVariable__23OI8JVKEeed_Iyh1NuRXg" Name="in_MagazinStartknopf GlobalVariable__23OI8JVKEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__-Tg7YZVKEeed_Iyh1NuRXg" Name="in_MagazinNotaus GlobalVariable__-Tg7YZVKEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable___wyKoZVKEeed_Iyh1NuRXg" Name="in_MagazinSchieberAusgefahren GlobalVariable___wyKoZVKEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__AFAuMZVLEeed_Iyh1NuRXg" Name="in_MagazinSchieberNichtAusgefahren GlobalVariable__AFAuMZVLEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__Am3eEZVLEeed_Iyh1NuRXg" Name="in_MagazinInduktiverSensor GlobalVariable__Am3eEZVLEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__QQjIsZVLEeed_Iyh1NuRXg" Name="in_MagazinOptischerSensor GlobalVariable__QQjIsZVLEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__RntI4ZVLEeed_Iyh1NuRXg" Name="in_MagazinWerkstueckGriffbereit GlobalVariable__RntI4ZVLEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__SpHikZVLEeed_Iyh1NuRXg" Name="in_KranAngesaugt GlobalVariable__SpHikZVLEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__TCcokZVLEeed_Iyh1NuRXg" Name="in_KranUnten GlobalVariable__TCcokZVLEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__TUcXgZVLEeed_Iyh1NuRXg" Name="in_KranOben GlobalVariable__TUcXgZVLEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__Tj_2cZVLEeed_Iyh1NuRXg" Name="in_KranZeigtAufStempel GlobalVariable__Tj_2cZVLEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__T0cGMZVLEeed_Iyh1NuRXg" Name="in_KranZeigtAufLaufband GlobalVariable__T0cGMZVLEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__UOyf4ZVLEeed_Iyh1NuRXg" Name="in_KranZeigtAufMagazin GlobalVariable__UOyf4ZVLEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__W7qgYZVMEeed_Iyh1NuRXg" Name="in_StempelSchieberAusgefahren GlobalVariable__W7qgYZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__XQe50ZVMEeed_Iyh1NuRXg" Name="in_StempelSchieberEingefahren GlobalVariable__XQe50ZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__XeybkZVMEeed_Iyh1NuRXg" Name="in_StempelWerkstueckVorhanden GlobalVariable__XeybkZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__XyFLAZVMEeed_Iyh1NuRXg" Name="in_StempelOben GlobalVariable__XyFLAZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__YAlhEZVMEeed_Iyh1NuRXg" Name="in_StempelUnten GlobalVariable__YAlhEZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__YiJWAZVMEeed_Iyh1NuRXg" Name="in_Sortierband_LichttasterKranInterface GlobalVariable__YiJWAZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__YzlrUZVMEeed_Iyh1NuRXg" Name="in_Sortierband_KapazitiverSensorKranInterface GlobalVariable__YzlrUZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__h5-oEZVMEeed_Iyh1NuRXg" Name="in_Sortierband_InduktiverSensorPusher1 GlobalVariable__h5-oEZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__iGbIoZVMEeed_Iyh1NuRXg" Name="in_Sortierband_LichttasterPusher1 GlobalVariable__iGbIoZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__fqyzsZVMEeed_Iyh1NuRXg" Name="in_Sortierband_InduktiverSensorPusher2 GlobalVariable__fqyzsZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__f-2YIZVMEeed_Iyh1NuRXg" Name="in_Sortierband_LichttasterPusher2 GlobalVariable__f-2YIZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__gMlSIZVMEeed_Iyh1NuRXg" Name="in_Sortierband_LichttasterSlide3 GlobalVariable__gMlSIZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__ggNYwZVMEeed_Iyh1NuRXg" Name="in_Sortierband_Pusher1Ausgefahren GlobalVariable__ggNYwZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__guNYgZVMEeed_Iyh1NuRXg" Name="in_Sortierband_Pusher1Eingefahren GlobalVariable__guNYgZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__g9lRQZVMEeed_Iyh1NuRXg" Name="in_Sortierband_Pusher2Ausgefahren GlobalVariable__g9lRQZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__hNofcZVMEeed_Iyh1NuRXg" Name="in_Sortierband_Pusher2Eingefahren GlobalVariable__hNofcZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__hn9rAZVMEeed_Iyh1NuRXg" Name="in_Sortierband_Lichtschranke3 GlobalVariable__hn9rAZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__tIJJoZVMEeed_Iyh1NuRXg" Name="in_Magazin_SchalterManAuto GlobalVariable__tIJJoZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__u7kPEZVMEeed_Iyh1NuRXg" Name="out_MagazinSchieber GlobalVariable__u7kPEZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__xCNLcZVMEeed_Iyh1NuRXg" Name="out_KranSenken GlobalVariable__xCNLcZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__xXCzAZVMEeed_Iyh1NuRXg" Name="out_KranVakuumAn GlobalVariable__xXCzAZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__vZHGsZVMEeed_Iyh1NuRXg" Name="out_KranDreheRechts GlobalVariable__vZHGsZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__wxgdAZVMEeed_Iyh1NuRXg" Name="out_KranDreheLinks GlobalVariable__wxgdAZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__vwTesZVMEeed_Iyh1NuRXg" Name="out_StempelSchieberAusfahren GlobalVariable__vwTesZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__wc8iQZVMEeed_Iyh1NuRXg" Name="out_StempelSchieberEinfahren GlobalVariable__wc8iQZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__wKrtkZVMEeed_Iyh1NuRXg" Name="out_StempelStempeln GlobalVariable__wKrtkZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__6H7Z0ZVMEeed_Iyh1NuRXg" Name="out_StempelStempelnDruck GlobalVariable__6H7Z0ZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__9dAfQZVMEeed_Iyh1NuRXg" Name="out_SortierbandDreheVorwaerts GlobalVariable__9dAfQZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__9-mwcZVMEeed_Iyh1NuRXg" Name="out_SortierbandDreheRueckwaerts GlobalVariable__9-mwcZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__-KP_wZVMEeed_Iyh1NuRXg" Name="out_SortierbandPusher1 GlobalVariable__-KP_wZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__-ZwbYZVMEeed_Iyh1NuRXg" Name="out_SortierbandPusher2 GlobalVariable__-ZwbYZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__89X88ZVMEeed_Iyh1NuRXg" Name="test_Sicherheitstuer_start GlobalVariable__89X88ZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__-p03sZVMEeed_Iyh1NuRXg" Name="test_Sicherheitstuer_auto_manuell GlobalVariable__-p03sZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__-1xB8ZVMEeed_Iyh1NuRXg" Name="test_test2 GlobalVariable__-1xB8ZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__8q1bcZVMEeed_Iyh1NuRXg" Name="v_MagazinWarten GlobalVariable__8q1bcZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__8QDj8ZVMEeed_Iyh1NuRXg" Name="v_KranAngesaugt GlobalVariable__8QDj8ZVMEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__7-ItgZVMEeed_Iyh1NuRXg" Name="m_conditionObserver GlobalVariable__7-ItgZVMEeed_Iyh1NuRXg">
-    <HasDerivedType xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.4"/>
-  </DeclaresGlobalVariable>
-  <DeclaresGlobalVariable id="GlobalVariable__PmPVgZVNEeed_Iyh1NuRXg" Name="m_condPropertyNames GlobalVariable__PmPVgZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__PzSTAZVNEeed_Iyh1NuRXg" Name="m_condPropertyValues GlobalVariable__PzSTAZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__N6x5QZVNEeed_Iyh1NuRXg" Name="m_counterNewConditions GlobalVariable__N6x5QZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__QGvagZVNEeed_Iyh1NuRXg" Name="m_deleteConditions GlobalVariable__QGvagZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__O8sCMZVNEeed_Iyh1NuRXg" Name="m_isReadingInformation GlobalVariable__O8sCMZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__PMRWUZVNEeed_Iyh1NuRXg" Name="m_condPropertyNamesBuffer GlobalVariable__PMRWUZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__QUjNAZVNEeed_Iyh1NuRXg" Name="m_condPropertyValuesBuffer GlobalVariable__QUjNAZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__OwpKQZVNEeed_Iyh1NuRXg" Name="m_counterNewConditionsBuffer GlobalVariable__OwpKQZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__OLRMUZVNEeed_Iyh1NuRXg" Name="m_isFailure GlobalVariable__OLRMUZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__OaRRoZVNEeed_Iyh1NuRXg" Name="m_failurePart GlobalVariable__OaRRoZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__b-UsgZVNEeed_Iyh1NuRXg" Name="m_failureRecoveryStrategy GlobalVariable__b-UsgZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__brG1kZVNEeed_Iyh1NuRXg" Name="m_isFailureMessage GlobalVariable__brG1kZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__ciaRAZVNEeed_Iyh1NuRXg" Name="m_failureMessage GlobalVariable__ciaRAZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__cWcRkZVNEeed_Iyh1NuRXg" Name="m_startDiagnosis GlobalVariable__cWcRkZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__c0vXIZVNEeed_Iyh1NuRXg" Name="m_startRecovery GlobalVariable__c0vXIZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__baN54ZVNEeed_Iyh1NuRXg" Name="m_recoveryFinished GlobalVariable__baN54ZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__lK80IZVNEeed_Iyh1NuRXg" Name="m_restartProduction GlobalVariable__lK80IZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__k6um0ZVNEeed_Iyh1NuRXg" Name="m_productionStarted GlobalVariable__k6um0ZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__kmk7wZVNEeed_Iyh1NuRXg" Name="m_startingFinished GlobalVariable__kmk7wZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__kIOL0ZVNEeed_Iyh1NuRXg" Name="m_Conveyor1WPBeforePusher1 GlobalVariable__kIOL0ZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__j70HgZVNEeed_Iyh1NuRXg" Name="test_OMACState GlobalVariable__j70HgZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__jkwSYZVNEeed_Iyh1NuRXg" Name="gc_usiMaxModes GlobalVariable__jkwSYZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__q4b7YZVNEeed_Iyh1NuRXg" Name="gc_maxObjectsArray GlobalVariable__q4b7YZVNEeed_Iyh1NuRXg"/>
-  <DeclaresGlobalVariable id="GlobalVariable__I0RbkbMfEeeX1Y4IpYYVqQ" Name="test GlobalVariable__I0RbkbMfEeeX1Y4IpYYVqQ"/>
 </IECModel:Configuration>
