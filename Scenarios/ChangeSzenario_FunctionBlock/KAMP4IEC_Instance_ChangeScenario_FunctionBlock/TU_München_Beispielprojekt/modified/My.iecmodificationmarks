@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="ASCII"?>
-<modificationmarks:IECModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository" xmlns:modificationmarks="http://sdq.ipd.kit.edu/modificationmarks">
-  <seedModifications xsi:type="modificationmarks:IECSeedModifications">
+<IECModificationmarks:IECModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IECModel="http://sdq.ipd.kit.edu/IECModel" xmlns:IECModificationmarks="http://sdq.ipd.kit.edu/IECModificationmarks" xmlns:IECReporitory="http://sdq.ipd.kit.edu/IECRepository">
+  <seedModifications xsi:type="IECModificationmarks:IECSeedModifications">
     <functionBlockModifications>
       <affectedElement xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
     </functionBlockModifications>
   </seedModifications>
-  <changePropagationSteps xsi:type="modificationmarks:IECChangePropagationDueToDataDependency">
-    <functionBlockModifications toolderived="true">
-      <affectedElement xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.0"/>
-      <causingElements xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
-    </functionBlockModifications>
+  <changePropagationSteps xsi:type="IECModificationmarks:IECChangePropagationDueToDataDependency">
     <functionBlockModifications toolderived="true">
       <affectedElement xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.13"/>
       <causingElements xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
     </functionBlockModifications>
     <functionBlockModifications toolderived="true">
       <affectedElement xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.3"/>
+      <causingElements xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
+    </functionBlockModifications>
+    <functionBlockModifications toolderived="true">
+      <affectedElement xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.0"/>
       <causingElements xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
     </functionBlockModifications>
     <globalVariableModifications toolderived="true">
@@ -52,4 +52,4 @@
       <causingElements xsi:type="IECReporitory:FunctionBlock" href="My.iecrepository#//@ContainsFunctionBlock.12"/>
     </propertyModifications>
   </changePropagationSteps>
-</modificationmarks:IECModificationRepository>
+</IECModificationmarks:IECModificationRepository>
